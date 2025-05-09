@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./src/index.js"
+    "dev": "node ./src/index.js",
+    "mybuild":"cd Client && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
