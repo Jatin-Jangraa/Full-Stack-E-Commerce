@@ -1,0 +1,48 @@
+.main {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.boxy {
+  height: 450px;
+  width: 60vw;
+  background-color: white;
+
+  padding: 0px 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.contain {
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(207, 197, 197);
+  overflow-y: scroll;
+  /* color:#4CAF50 ; */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+.pcharty {
+  height: 92vh;
+  overflow-y: scroll;
+}
+
+.pcharty::-webkit-scrollbar {
+  display: none;
+}

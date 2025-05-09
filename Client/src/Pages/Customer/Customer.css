@@ -1,0 +1,92 @@
+.customer {
+  height: 92vh;
+  width: 100vw;
+
+  display: flex;
+}
+
+.customerside {
+  height: 92vh;
+  width: 23vw;
+}
+
+.customermain {
+  width: 77vw;
+  height: 92vh;
+  background-color: rgba(240, 240, 240, 0.934);
+  padding: 20px 20px;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.customerheading {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.customerdata {
+  width: 100%;
+  height: 80px;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+ 
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.name {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.role {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(253, 73, 73, 0.817);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.4rem;
+
+    &:hover {
+      background-color: rgb(252, 49, 49);
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.paymentbox{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.paymentside{
+    height: 90vh;
+    width: 70vw;
+    background-image: url(http://res.cloudinary.com/dhte80xl2/image/upload/v1746197411/i6pjgcp9vzkeahxyuf1f.png);
+    background-size: cover;
+
+
+}
+
+.payside{
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+
+
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+
+.paymentButton{
+    border: 1.6px solid rgb(84, 160, 214);
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+
+    background-color: rgb(32, 162, 255);
+
+}
+
+
+.paymentButton:hover{
+    cursor: pointer;
+    background-color: rgb(16, 152, 249);
+
+}

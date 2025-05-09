@@ -1,0 +1,649 @@
+
+
+
+.mmainn{
+    margin: 0px;
+    padding: 0px;
+    height: 92vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.transactionside{
+    height: 92vh;
+    width: 23vw;
+    /* background-color: aqua; */
+}
+
+
+
+
+
+
+.transactionmain{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 77vw;
+    height: 92vh;
+     background-color:  rgba(240, 240, 240, 0.934);
+     padding: 20px 20px ;
+     overflow-y: scroll;
+     padding: 0px;
+&::-webkit-scrollbar{
+    display: none;
+}
+
+    }
+
+
+
+
+.transactionheading{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    
+}
+
+
+.transactiondata{
+   
+    display: flex;
+  
+    width:77vw;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    height:80px ;
+  
+    /* padding-top: 10px; */
+    border-bottom: 1.2px solid rgba(0, 0, 0, 0.425);
+}
+
+
+.transactionuser{
+width: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+img{
+    height: 75px;
+    width: 75px;
+    border-radius: 30px;
+}
+
+}
+
+.transactionamount{
+    width: 20%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.transactiondiscount{
+    width: 20%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.transactionquantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.transactionstatus{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .systm:hover{
+    cursor:pointer;
+   
+ }
+
+ .system{
+    padding:3px 7px;
+    
+    border-radius: 20px;
+    background-color: rgb(127, 180, 236);
+ } */
+
+
+ .transactionaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+
+
+    
+}
+
+
+
+.system:hover{
+    cursor:pointer;
+   
+ }
+
+ .system{
+    padding:3px 7px;
+    
+    border-radius: 20px;
+    background-color: rgb(127, 180, 236);
+ }
+
+
+
+/* .action{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+div{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 87, 87, 0.817);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.4rem;
+
+&:hover{
+    background-color: rgb(252, 49, 49);
+cursor: pointer;
+}
+
+}
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.containy{
+    width: 100%;
+    background-color: rgb(217, 215, 215);
+    margin: 0px;
+    padding: 0px;
+
+
+    .product{
+        width: 100%;
+    }
+}
+
+
+.mainn{
+    display: flex;
+}
+
+.pro{
+
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+
+    h2{
+        font-size: 30px;
+       padding-left: 10px;
+        margin-bottom: 30px;
+      
+    }
+
+ 
+}
+
+.abcde{
+    width: 100%;
+    display: flex;
+padding: 0px 10px;
+border-bottom: .9px solid rgba(0, 0, 0, 0.653);
+padding-bottom: 20px;
+
+
+
+
+
+    .aa{
+        width: 15%;
+       padding: 0px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+           }
+
+
+    .bb{
+        min-width: 40%;
+       padding-left: 25px;
+       
+    }
+
+
+    .cc{
+        min-width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            }
+
+    .dd{
+        min-width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    .ee{
+        min-width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            }
+
+}
+
+
+
+
+.maincontainer{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+   overflow-y: scroll;
+}
+
+.maincontainer::-webkit-scrollbar{
+display: none;
+
+}
+.aabcde{
+    min-height: 60px;
+  
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+border-bottom: 1.2px solid rgba(0, 0, 0, 0.352);
+}
+.aaa{
+    width: 15%;
+   height: 90px;
+    
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+    img{
+        width: 80px;
+        object-fit:cover;
+        height: 70px;
+        border-radius: 20px;
+    }
+}
+.plus{
+    
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        border-radius: 20px;
+        background-color: rgba(241, 37, 23, 0.836);
+     
+    margin-right: 40px;}
+
+
+.bbb{
+   width: 40%;
+    padding-left: 30px;
+    height: auto;
+    word-wrap: break-word;
+
+    p{
+        width: 90%;
+       
+       
+    }
+}
+
+
+.ccc{
+    width: 15%;
+    
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+
+ .ddd{
+    width: 15%;
+    
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+ 
+ .eee{
+    width: 15%;
+    
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+
+   
+ 
+ }
+ 
+ 
+ .systm:hover{
+    cursor:pointer;
+   
+ }
+
+ .system{
+    padding:3px 7px;
+    
+    border-radius: 20px;
+    background-color: rgb(127, 180, 236);
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+/* 
+
+.containy{
+    width: 100%;
+    background-color:rgba(223, 215, 226, 0.934);
+    margin: 0px;
+    padding: 0px;
+
+
+    .product{
+        width: 100%;
+    }
+}
+
+
+.mainn{
+    display: flex;
+}
+
+.pro{
+
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+
+    h2{
+        font-size: 30px;
+       padding-left: 10px;
+        margin-bottom: 30px;
+      
+    }
+
+
+}
+
+.abcde{
+    width: 100%;
+    display: flex;
+
+border-bottom: .9px solid rgba(0, 0, 0, 0.653);
+padding-bottom: 20px;
+padding: 20px 20px ;
+
+
+
+
+    .ta{
+        width: 15%;
+       padding: 0px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      
+    }
+
+
+    .tb{
+       width: 15%;
+     
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+    }
+
+
+    .tc{
+       width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .td{
+      width: 20%;
+       
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .te{
+       width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       
+    }
+
+    .tf{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+      
+    }
+}
+
+
+
+
+.maincontainer{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+   overflow-y: scroll;
+   padding: 20px 20px ;
+}
+
+.maincontainer::-webkit-scrollbar{
+display: none;
+
+}
+.aabcde{
+    min-height: 70px;
+    padding: 0px 10px;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+border-bottom: 1.2px solid rgba(0, 0, 0, 0.352);
+
+.taa{
+    width: 15%;
+  
+     
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+    
+}
+
+
+.tbb{
+   width: 15%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+   
+}
+
+
+.tcc{
+   
+    width: 15%;
+    
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+
+ .tdd{
+    width: 20%;
+    
+     height: auto;
+     display: flex;
+    align-items: center;
+    justify-content: center
+   
+    
+ 
+ }
+ 
+ .tee{
+    
+    width: 20%;
+    
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+
+ }
+ 
+ }
+ 
+
+ .tff{
+    width: 15%;
+    
+    height: auto;
+   display: flex;
+   align-items: center;
+   
+   justify-content: center;
+
+ }
+ 
+
+
+ .red{
+    color: red;
+ }
+
+
+ .green{
+    color: green;
+ }
+
+ .blue{
+    color: blue;
+ }
+
+
+  */

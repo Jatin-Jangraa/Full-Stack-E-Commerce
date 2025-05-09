@@ -1,0 +1,133 @@
+.login{
+    height: 92vh;
+    width: 100vw;
+    background-image: url(http://res.cloudinary.com/dhte80xl2/image/upload/v1746197257/nconkog4affgqhp3bgcx.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.loginbox{
+    height: auto;
+   width:  25%;
+// background-color: rgb(145, 148, 147);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 10px ;
+gap: 10px;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+box-shadow: 0px 4px 30px black;
+border: 1.5px solid black;
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+}
+
+
+.loginboxdata{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    // background-color: rgb(126, 134, 134);
+    font-size: 1.15rem;
+
+
+    select{
+        width: 100%;
+        outline: none;
+        padding: 0px 10px;
+        border: 1.5px solid rgba(0, 0, 0, 0.55);
+        border-radius: 2px;
+    }
+
+
+    input{
+        width: 60%;
+        outline: none;
+        padding: 0px 10px;
+        border: 1.5px solid rgba(0, 0, 0, 0.55);
+        border-radius: 2px;
+        font-size: .9rem;
+    }
+}
+
+
+.loginboxsign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+align-items: center;
+
+    p{
+        font-size: 1.2rem;
+        font-weight: 450;
+    }
+}
+
+
+.loginsignbtn{
+    margin-top: 5px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    // background-color: beige;
+    width: auto;
+
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
+.loginflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loginsubmit{
+// background-color: black;
+width: 70%;
+height: 35px;
+margin-top: 15px;
+
+button{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+
+
+    &:hover{
+        background-color: white;
+        color: black;
+        font-weight: 650;
+        cursor: pointer;
+    }
+}
+
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

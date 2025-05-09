@@ -1,0 +1,142 @@
+.shipping{
+    height: 92vh;
+    width: 100vw;
+    // background-color: rgb(180, 201, 201);
+    background-image: url("http://res.cloudinary.com/dhte80xl2/image/upload/v1746248122/y9ax2dpfemxcvjolangi.jpg");
+    background-size: cover;
+    
+   
+    padding: 10px;
+}
+
+
+.shippingback{
+    // background-color: aqua;
+    height: 50px;
+    
+
+    button{
+        height:50px ;
+        width: 50px;
+        background-color: rgb(169, 168, 165);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 1.3rem;
+
+svg{
+    transition: 0.3s;
+    &:hover{
+        translate: -0.25rem;
+        cursor: pointer;
+    }
+}
+
+    }
+}
+
+
+.shippingaddress{
+    height: 90%;
+    width: 100%;
+    // background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.shippingform{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shippingheaad{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.shippingbox{
+    // background-color: rgb(177, 175, 173);
+    padding-top: 10px;
+height: 90%;
+min-width: 26%;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+backdrop-filter: blur(13px);
+-webkit-backdrop-filter: blur(2px);
+box-shadow: 0px 4px 30px rgb(21, 21, 21);
+border: 1.8px solid rgb(5, 5, 5);
+
+}
+
+
+.shippingaddressbox{
+    // background-color: rgb(165, 156, 156);
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.shipaddress{
+    width: 95%;
+    padding: 0px 20px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+
+
+    input{
+        width: 100%;
+        outline: none;
+        background-color: transparent;
+        border-radius: 20px;
+    }
+}
+
+
+.shippingpay{
+    width: 85%;
+    height: 50px;
+    // background-color: aqua;
+    margin-top:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(53, 53, 53);
+        border-radius: 20px;
+        font-size: 1.3rem;
+        font-weight: 550;
+        color: white;
+
+        &:hover{
+            cursor: pointer;
+            // opacity: 0.8;
+            background-color: rgb(228, 228, 228);
+            color: black;
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,50 @@
+
+
+.stopmmainn{
+    margin: 0px;
+    padding: 0px;
+    height: 92vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.stopside{
+    height: 92vh;
+    width: 23vw;
+    background-color: aqua;
+}
+
+
+
+
+
+
+.stopmain{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 77vw;
+    height: 92vh;
+     background-color:  rgba(223, 215, 226, 0.934);
+     padding: 20px 20px ;
+     overflow-y: scroll;
+     padding: 0px;
+&::-webkit-scrollbar{
+    display: none;
+}
+
+    }
+
+
+
+    .stophead{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+
+    .stoptime{
+        font-size: 1.3rem;
+    }

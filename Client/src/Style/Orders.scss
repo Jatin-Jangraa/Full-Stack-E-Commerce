@@ -1,0 +1,104 @@
+.order{
+    width: 100vw;
+    height: 92vh;
+    // background-color: rgb(132, 174, 211);
+padding: 30px 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ordershead{
+    font-size: 1.6rem;
+font-weight: 450;
+width: 100%;
+}
+
+.orderbox{
+    margin-top: 30px;
+    // background-color: antiquewhite;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ordersboxhead{
+    font-size: 1.4rem;
+    font-weight: 450;
+    padding: 15px;
+}
+
+
+.ordersitem{
+    height: 50px;
+    width: 90%;
+    // background-color: aquamarine;
+    display: flex;
+
+}
+
+
+.ordery{
+    border-bottom: 1.2px solid black;
+}
+
+.ordersid{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+// padding-left: 4%;
+  justify-content: center;
+
+}
+
+.ordersquantity{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .ordersdiscount{
+    width:20% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .ordersamount{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .ordersstatus{
+    width:20% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+
+  .yellow{
+    color: rgb(248, 184, 57);
+  }
+
+  .blue{
+    color: rgb(34, 104, 255);
+  }
+
+  .green{
+    color: green;
+  }

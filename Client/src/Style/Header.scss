@@ -1,0 +1,95 @@
+
+
+
+*{
+    user-select: none;
+}
+
+
+.header{
+    background-color: rgba(238, 232, 232, 0.562);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+  
+padding: 1rem;
+
+    a{
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    button{
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        background-color: transparent;
+
+
+        &:hover{
+            color:pink ;
+        }
+
+
+    }
+
+
+    dialog{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100px;
+        position:absolute;
+        top: 8%;
+        left: calc(100% - 102px);
+       
+       
+
+
+
+        div{
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}
+
+
+.users{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.usersign{
+    display: flex;
+    gap: 1.2rem;
+
+    
+}
+
+
+.user{
+    font-size: 1.7rem;
+}
+
+
+.headerhome{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.headerhome{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+
+    link{
+        outline: none;
+        
+    }
+}

@@ -1,0 +1,304 @@
+@import "tailwindcss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+}
+
+.data {
+  width: 100%;
+  height: 92vh;
+  /* background-color: rgb(223, 215, 226); */
+  background-image: url(http://res.cloudinary.com/dhte80xl2/image/upload/v1746339529/fxidxzr6vxifzebhvst6.avif);
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+.data::-webkit-scrollbar {
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+
+  margin-bottom: 9px;
+}
+
+.right {
+  display: flex;
+}
+
+.icon {
+  font-size: 23px;
+  padding: 0px 15px;
+}
+
+.nav {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.revenue-chart .search input {
+  border: none;
+  outline: none;
+  min-width: 35vw;
+}
+
+.bell {
+  font-size: 23px;
+  padding: 0px 10px;
+}
+
+.stats-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+
+  min-width: 15vw;
+
+  /* background-color: rgb(211, 239, 241); */
+  padding: 15px 10px;
+  background-color: rgb(248, 245, 245);
+  opacity: 89%;
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(235px);
+  box-shadow: 0px 4px 30px black;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  margin-top: 18px;
+}
+
+.right-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.graph {
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(193, 192, 192);
+  /* background-color: transparent; */
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.outer {
+  height: 3.7rem;
+  width: 3.7rem;
+  background-color: white;
+
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: wait 20ms; */
+}
+
+/* @keyframes wait {
+    0%{
+        background-position: -10px 0px;
+    }
+
+    100%{
+        background-position: 10px 0px;
+    }
+} */
+
+.heading {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgb(112, 110, 110);
+}
+
+.amount p {
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.color {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.percent p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.percent {
+  display: flex;
+}
+
+.graph-section {
+  display: flex;
+  gap: 2rem;
+  margin: 30px 0px;
+  width: 100%;
+  height: auto;
+  div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 9px 15px;
+  }
+}
+
+.revenue-chart {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .revenue-chart {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    div {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.revenue-chart h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dash-cate {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.dash-cate h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.flow {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+  gap: 0px;
+}
+
+.lap {
+  display: flex;
+  align-items: center;
+  margin: -9px;
+
+  div {
+    font-size: 0.9rem;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .lapp {
+    min-width: 60%;
+
+    height: 15%;
+    background-color: rgb(207, 212, 211);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 07px;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    div {
+      height: 100%;
+    }
+  }
+}
+
+.graph {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.revenue-chart {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  max-width: 72vw;
+  margin-bottom: 20px;
+}
+
+.male {
+  background-color: aqua;
+  width: 32%;
+  height: 350px;
+}
+
+@media (max-width: 900px) {
+  .male {
+    background-color: aqua;
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.table {
+  width: 60%;
+  height: 350px;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

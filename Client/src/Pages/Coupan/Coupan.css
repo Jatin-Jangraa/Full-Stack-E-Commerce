@@ -1,0 +1,195 @@
+.coupanmmainn {
+  margin: 0px;
+  padding: 0px;
+  height: 92vh;
+  width: 100vw;
+
+  display: flex;
+  /* flex-direction: row; */
+}
+.coupanside {
+  height: 92vh;
+  width: 23vw;
+  background-color: aqua;
+}
+
+.listofcoupan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+}
+
+.listcoupan {
+  background-color: rgb(240, 240, 240);
+  border: 1.7px solid rgba(0, 0, 0, 0.47);
+  border-radius: 10px;
+  height: 25vh;
+  width: 28vw;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.mycoupanname {
+  width: 70%;
+  height: 30px;
+  /* background-color: aqua; */
+  padding-left: 20px;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.mycoupanamount {
+  width: 23%;
+  /* background-color: rgb(82, 92, 92); */
+  align-items: center;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.mycoupandelete {
+  width: 12%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: rgb(249, 41, 41);
+  }
+}
+
+.mycoupannames {
+  width: 70%;
+  height: 30px;
+  /* background-color: aqua; */
+  padding-left: 20px;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.mycoupanamounts {
+  width: 23%;
+  /* background-color: rgb(82, 92, 92); */
+  align-items: center;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycoupandeletes {
+  width: 12%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: rgb(249, 41, 41);
+  }
+}
+
+.mycoupans {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.2px solid rgba(0, 0, 0, 0.331);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.coupanmain {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 77vw;
+  height: 92vh;
+  /* background-color:  rgba(223, 215, 226, 0.934); */
+  padding: 20px 20px;
+  overflow-y: scroll;
+  padding: 0px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.coupandetail {
+  /* background-color: antiquewhite; */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  button {
+    border: 1.5px solid black;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 200);
+    font-weight: 550;
+    font-size: 1.2rem;
+  }
+
+  input {
+    background-color: transparent;
+    border: 1.2px solid black;
+    padding-left: 15px;
+    outline: none;
+  }
+}
+
+.coupan-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textin {
+  width: 60%;
+  text-align: center;
+}
+
+.textlen {
+  width: 35%;
+  text-align: center;
+}
+
+.coupanbtn {
+  width: 80%;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.coupanbtnn {
+  border: 1.2px solid black;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.jangra {
+  width: 100%;
+  margin-top: 30px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

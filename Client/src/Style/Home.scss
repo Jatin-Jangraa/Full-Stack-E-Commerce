@@ -1,0 +1,187 @@
+.home {
+    height: 92vh;
+    // background-color: rgb(179, 213, 242);
+    width: 100vw;
+    padding: 0px 2z.5%;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    overflow-y: scroll;
+    // background-color: aqua;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+   
+    section {
+        width: 100%;
+        height: 40%;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        // background-image: url("../assets/Image/Camera.jpeg");
+        object-fit: contain;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    }
+
+
+    h1 {
+        // background-color:rgba(47, 107, 132, 0.929);
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 30px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        // margin-top: -20px;
+    }
+
+
+    .productmain {
+        margin-top: 20px;
+        width: 100%;
+        // height: 1000px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        overflow-y: visible;
+
+
+
+        .product {
+            position: relative;
+            width: 23%;
+            background-color: rgb(238, 238, 238);
+
+            height: 380;
+            padding: 4px 4px;
+            margin-bottom: 30px;
+            display: flex;
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                margin-top: 20px;
+                height: 230px;
+                width: 80%;
+                margin-bottom: 10px;
+            }
+
+
+            &:hover{
+
+                .overlay{
+                opacity: .7;
+                pointer-events: auto;
+
+
+                .detailbutton{
+                    opacity: 10;
+                    font-weight: 700;
+                    background: rgb(252, 251, 251);
+                    :hover{
+                        cursor: pointer;
+                    }
+                }
+            }}
+
+
+
+        }
+
+
+        .overlay {
+
+            position: absolute;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            top: 0;
+            height: 68%;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease-in;
+
+            .detailbutton {
+                opacity: 10;
+                
+                // border: 1.7px solid black;
+                border-radius: 20px;
+                font-weight: 600;
+                padding: 2px 2px;
+                font-size: 1.4rem;
+            }
+
+
+        }
+
+        .productheading {
+            margin-top: 0px;
+            display: flex;
+            width: 100%;
+            height: 25px;
+            //  background-color: aqua;
+            justify-content: center;
+        }
+
+
+        .productbutton {
+
+
+            background-color: rgb(253, 166, 66);
+            width: 80%;
+            padding: 0px 0px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+
+
+            border-radius: 20px;
+
+            button {
+                height: 100%;
+                width: 100%;
+                border-radius: 20px;
+                padding: 5px 0px;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: rgb(255, 116, 2);
+            }
+        }
+
+        .productpara {
+            width: 70%;
+            height: auto;
+            word-wrap: break-word;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 1.1rem;
+        }
+
+
+    }
+
+
+}
+
+
